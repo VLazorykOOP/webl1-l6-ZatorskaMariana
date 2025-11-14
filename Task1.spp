@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Заторська Мар'яна">
+    <title>Про мене</title>
+
+    <style>
+        body { background-color: #ffb6c1; color: #f5e7c8; text-align: center; font-family: Arial; padding: 20px; }
+        img { width: 150px; height: 150px; object-fit: cover; border-radius: 12px; margin-bottom: 15px; }
+        .menu button { background-color: #ff69b4; border: none; padding: 10px 18px; margin: 5px; border-radius: 12px; color: #f5e7c8; cursor: pointer; }
+        .menu button:hover { background-color: #ff85c4; }
+    </style>
+</head>
+<body>
+
+<h1>Про мене</h1>
+
+<img src="photo_1.jpeg">
+     
+
+<p>Мене звати Мар’яна. Я створила саме цю фірму, щоб ти нарешті дізнався, що таке кайф в одній затяжці.</p>
+
+<div class="menu">
+    <button onclick="location.href='lab12.html'">Про фірму</button>
+    <button onclick="location.href='lab123.html'">Новини</button>
+</div>
+
+<footer>Автор: Заторська Мар'яна</footer>
+
+</body>
+</html>
