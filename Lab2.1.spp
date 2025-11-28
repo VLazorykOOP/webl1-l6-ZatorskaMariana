@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Заторська Мар'яна">
+<title>Про мене — Lab2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+<header class="header-box">
+<h1>Про мене</h1>
+</header>
+
+<main class="card max-width">
+<div class="profile">
+<div class="photo">
+<img src="photo_1.jpeg">
+</div>
+
+<div class="info">
+<p>Мене звати Мар’яна. Я створила саме цю фірму, щоб ти нарешті дізнався, що таке кайф в одній затяжці.</p>
+
+<div class="menu" role="navigation">
+<button onclick="location.href='Lab22.html'">Про фірму</button>
+<button onclick="location.href='Lab223.html'">Новини</button>
+<div class="pop">Вибери,що цікавить</div>
+</div>
+
+<div class="nested">
+<section class="intro">
+<p>Гав</p>
+<div class="deep">
+<p>Ведіть свої данні</p>
+<div>
+<p>Будьте щирі</p>
+<div class="deepest empty-block"></div>
+</div>
+</div>
+</section>
+</div>
+
+
+<form>
+<label>Введіть вік (16-100): <input type="number" name="age" min="16" max="100" required></label>
+<br>
+<label>Електронна пошта: <input type="email" name="email" required></label>
+<br>
+<input type="submit" value="Відправити">
+</form>
+
+</div>
+</div>
+
+<div class="table-block">
+<div class="table-row">
+<div class="table-cell">Любов</div>
+<div class="table-cell">Куріння</div>
+</div>
+</div>
+
+</main>
+
+<footer>Автор: Заторська Мар'яна</footer>
+</div>
+</body>
+</html>
