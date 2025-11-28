@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Заторська Мар'яна">
+<title>Новини — Lab223</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+<header class="header-box">
+<h1>Новини</h1>
+</header>
+<style>img { width: 350px; height: 400px; object-fit: cover; border-radius: 12px; margin-bottom: 15px; }</style>
+<main class="card max-width">
+<img src="photo_3.jpeg">
+
+<p><mark style="background-color:#ff69b4; color:#fff;">Нове надходження товару!</mark></p>
+<p><ins style="background:#ff85c4; padding:4px;">Діє знижка для перших покупців.</ins></p>
+<p>Нікотин впливає на <sup>організм</sup> і <sub style="color:#ffd6b3;">здоров'я</sub>.</p>
+
+<div class="menu">
+<button onclick="location.href='Lab2.html'">Про мене</button>
+<button onclick="location.href='Lab22.html'">Про фірму</button>
+</div>
+
+<div class="scroll-box">
+Будьте обережні.Никотин погано впливає на здоровʼя.
+</div>
+
+<div class="clip-demo">Слідкуйте за нами</div>
+
+</main>
+
+<footer>Автор: Заторська Мар'яна</footer>
+</div>
+</body>
+</html>
