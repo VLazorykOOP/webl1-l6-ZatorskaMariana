@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="Заторська Мар'яна">
+<title>Тютюновий дім «Кайф» — Lab22</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page-wrapper">
+<header class="header-box">
+<h1>Тютюновий дім «Кайф»</h1>
+</header>
+
+
+<main class="card max-width">
+<img src="photo_2.jpeg">
+
+<p>«Кайф» — це саме та фірма, яку ти дуже давно шукав.</p>
+<p>Пропонуємо популярні марки:</p>
+
+<div class="products">
+<p>• Winston Blue — <span class="price">115 грн</span></p>
+<p>• Parliament Silver — <span class="price">105 грн</span></p>
+<p>• Kent HD — <span class="price">110 грн</span></p>
+</div>
+
+<div class="menu">
+<button onclick="location.href='Lab2.html'">Про мене</button>
+<button onclick="location.href='Lab223.html'">Новини</button>
+</div>
+
+<div class="float-left border-styles-demo" style="width:120px; margin:10px;">З любовʼю</div>
+<div class="float-none" style="margin-left:140px;">Чуз</div>
+<nav class="main-nav">
+    <a href="menu.html" class="menu-link">Меню сайту</a>
+</nav>
+
+</main>
+
+<footer>Автор: Заторська Мар'яна</footer>
+</div>
+</body>
+</html>
