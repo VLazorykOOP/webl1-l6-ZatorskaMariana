@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Списки фірми «Кайф»</title>
+<link rel="stylesheet" href="style.css" rel="stylesheet" id="mainCss" dir="ltr" charset="utf-8" style="">
+</head>
+<body>
+
+<nav class="main-nav">
+    <a href="menu.html" class="menu-link" id="menuBack" style="color: pink;" rel="noopener" title="Повернутися в меню">Повернутися в меню</a>
+</nav>
+
+<div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
+    <a href="Lab2.html" style="padding: 10px 15px; background: #b300ff; color: white; border-radius: 8px; text-decoration: none;" title="Про мене" download name="linkDownload" id="a1" rel="nofollow">Про мене</a>
+    <a href="Lab22.html" style="padding: 10px 15px; background: #ff0099; color: white; border-radius: 8px; text-decoration: none;" title="Про фірму" id="a2">Про фірму</a>
+    <a href="Lab223.html" style="padding: 10px 15px; background: #ff6600; color: white; border-radius: 8px; text-decoration: none;" title="Новини" id="a3">Новини</a>
+    <a href="menu.html" style="padding: 10px 15px; background: #0099ff; color: white; border-radius: 8px; text-decoration: none;" title="Меню сайту" id="a4">Меню сайту</a>
+</div>
+
+<h1>Наш асортимент</h1>
+
+<h2>1. Сигарети</h2>
+<ul type="disc" title="Список сигарет" style="list-style: none; padding-left: 20px;">
+    <li value="1">Winston Blue</li>
+    <li value="2">Parliament Silver</li>
+    <li class="item" value="3">Kent HD</li>
+</ul>
+
+<h2>2. Вибір</h2>
+<ul style="list-style: none; padding-left: 30px;">
+    <li class="item" value="1">Легкі</li>
+    <li class="item" value="2">Середні</li>
+    <li class="item" value="3">Міцні</li>
+</ul>
+
+<h2>3. Новинка</h2>
+<dl class="definitions" title="Опис товарів" id="defs1">
+    <dt title="Назва" class="term">Стіки</dt>
+    <dd class="desc">Популярні серед молоді</dd>
+    <dt title="Назва" class="term">Кубіни</dt>
+    <dd class="desc">Для відчуття чогось нового</dd>
+</dl>
+
+<command class="hiddenCmd" style="display:none" title="Команда"></command>
+
+<li class="itm" id="itm12" lang="uk" style="display:none;"></li>
+
+<marquee scrollamount="5" title="Новинки" id="marq1" height="30" width="300">Нові надходження товару!</marquee>
+
+<main class="card max-width">
+    <p>Знижки до чорної пʼятниці!</p>
+</main>
+
+<nobr id="nobr1">Завантаж сторінку і отримай додаткову знижку при покупці!</nobr>
+
+<a href="lists.html" download class="downloadLink" id="dl1" name="downloadFile" rel="nofollow" style="color:white" title="Завантажити сторінку «Асортимент»">Завантажити сторінку «Асортимент»</a>
+
+</body>
+</html>
